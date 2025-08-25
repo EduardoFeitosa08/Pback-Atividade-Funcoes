@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./funcoes.js" defer></script>
+    <title>Loja Desconto</title>
+</head>
+<body>
+    <h1>Loja Desconto</h1>
+    <br>
+    <div>
+        <label>Nome do Produto:</label>
+        <input type="text">
+    </div>
+    <br>
+    <div>
+        <label>Quantidade:</label>
+        <input type="text" id="valor1">
+    </div>
+    <br>
+    <div>
+        <label>Preço Unitário:</label>
+        <input type="text" id="valor2">
+    </div>
+    <br>
+    <button id="calcular" onclick="calcularDesconto()">Calcular Desconto</button>
+    <h3>O Total a Pagar com Desconto é: <span id="resultadoDesconto"></span></h3>
+    <h3>O Total a Pagar sem Desconto é: <span id="resultado"></span></h3>
+    <h3>O desconto recebido foi de: <span id="desconto"></span></h3>
+</body>
+</html>
