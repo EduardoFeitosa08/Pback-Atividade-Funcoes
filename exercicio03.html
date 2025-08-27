@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./funcoes.js" defer></script>
+    <title>Escola APRENDER</title>
+</head>
+<body>
+    <h1>Escola APRENDER</h1>
+    <br>
+    <div>
+        <label>Nome do Professor:</label>
+        <input type="text">
+    </div>
+    <br>
+    <div>
+        <label>Nivel do Professor:</label>
+        <input type="text" id="nivel">
+    </div>
+    <br>
+    <div>
+        <label>Quantidade de aulas lesionadas:</label>
+        <input type="text" id="quantAulas">
+    </div>
+    <br>
+    <button id="calcular" onclick="calcularSalario()">Calcular Salario</button>
+    <h3>O professor recebeu: <span id="valorHora"></span></h3>
+</body>
+</html>
